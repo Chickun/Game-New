@@ -5,7 +5,7 @@
 <head>
 	<meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
-  <title>JustDoAsIDo | Asylum</title>
+  <title>JustDoAsIDo | Asylum FAQ</title>
 
   <link rel="stylesheet" href="css/normalize.css" />
   
@@ -53,10 +53,10 @@
       <img src="\img\asylum_intro.png"></a>
     </div>
     <div class="large-8 columns">
-      <h4>Why dev on <span class="hint--top" data-hint="UDK stands for Unreal Development Kit, Check out the 'credits' page for more info">UDK?</span></h4>
+      <h4>Is Asylum The Final Name?</h4>
       <div class="row">
         <div class="large-6 columns">
-          	<p>I am choosing to develop Asylum on the UDK engine because it is the engine I am most familiar with. It also provides you with a friendly UI and easy importing options. </p>
+          	<p>No. Asylum is just a quick name we thought of until a more appropriate name could be thought of. Once this has been discussed all changes related to asylum would be changed to the appropriate name. </p>
         </div>
         <div class="large-6 columns">
           <p></p>
@@ -93,7 +93,7 @@
         <div class="large-6 columns">
           <ul class="inline-list right">
             <li><a href="#">Team Behind Asylum</a></li>
-            <li><a href="asylum_faq.html">FAQ</a></li>
+            <li><a href="#">FAQ</a></li>
             <li><a href="#">Link 3</a></li>
             <li><a href="#">Link 4</a></li>
           </ul>
