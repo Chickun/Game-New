@@ -1,0 +1,89 @@
+<head>
+  <title>Login</title>
+  <script>
+  $('.cube').click(function(){
+  var username = $('.username').val();
+  var password = $('.password').val();
+  if(username == 'staff'&&password == '1234'){
+    $('.inner').css('transform','translateZ(-30px) rotateX(-90deg)');
+   
+  }else{
+    $('.inner').css('transform','translateZ(-30px) rotateX(90deg)');
+  }
+});  
+   
+$('.again').click(function(e){
+  e.preventDefault();
+  $('.username').val('');
+  $('.password').val('');
+  $('.inner').css('transform','translateZ(-30px) rotateX(0deg)');
+}) 
+
+$('.reset').click(function(e){
+  e.preventDefault();
+  $('.email').val('');
+  $('.inner').css('transform','translateZ(-30px) rotateX(180deg)');
+});
+$('.second').click(function(){
+  $('.username').val('');
+  $('.password').val('');
+  $('.inner').css('transform','translateZ(-30px) rotateX(0deg)');
+ 
+});
+</script>
+</head>
+<body>
+
+<p class="hint">Username : root | Password : 1234</p>
+<div class="login">
+  <div class="inner">
+    <div class="rect front">
+      <div class="name">
+        <div class="icon fontawesome-user"></div>
+      <input type="text" class = 'username' placeholder='Username...'/>
+      </div>
+      <div class="pass">
+        <div class="icon fontawesome-lock"></div>
+      <input type="password" class='password' placeholder='Password..'/>
+      </div>
+      
+      
+      <div class="container first">
+        <div class="cube">
+          <div class="side side1 fontawesome-chevron-right"></div>
+          <div class="side side2"></div>
+          <div class="side side3 fontawesome-chevron-left"></div>
+          <div class="side side4"></div>
+          <div class="side side5"></div>
+          <div class="side side6"></div>
+        </div>
+      </div>
+    
+    </div>
+    <div class="rect back">
+    <input class='email' type="email" placeholder='Enter you email'/>
+      
+          <div class="container second">
+        <div class="cube">
+          <div class="side side1 fontawesome-chevron-right"></div>
+          <div class="side side2"></div>
+          <div class="side side3 fontawesome-chevron-left"></div>
+          <div class="side side4"></div>
+          <div class="side side5"></div>
+          <div class="side side6"></div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="rect top">
+      <div class="fontawesome-ok sign"></div>
+      <p class="message">Welcome Admin</p>
+    </div>
+    <div class="rect bottom">
+      <div class="fontawesome-remove sign"></div>
+    <p class="message">Login Failed <a href="" class = 'again'>Try again</a> or <a href="" class='reset'>Reset Password</a></p></div>
+    <div class="rect left"></div>
+    <div class="rect right"></div>
+  </div>
+</div>
+</body>
